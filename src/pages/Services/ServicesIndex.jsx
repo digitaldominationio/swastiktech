@@ -12,7 +12,7 @@ export default function ServicesIndex() {
         title="Our Services"
         subtitle="Explore our complete range of enterprise-grade solutions designed for performance, security, and scalability."
       />
-      <section className="py-20 md:py-28 bg-slate-50">
+      <section className="py-20 md:py-14 bg-slate-50">
         <Container>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {SERVICES.map((srv) => (

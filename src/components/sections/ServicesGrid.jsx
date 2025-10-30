@@ -7,7 +7,7 @@ import Container from "../layout/Container"
 
 export default function ServicesGrid() {
   return (
-    <section className="py-20 md:py-28 bg-slate-50" id="services">
+    <section className="py-20 md:py-14 bg-slate-50" id="services">
       <Container>
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-800">

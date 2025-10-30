@@ -69,7 +69,7 @@ export default function Hero() {
   const slide = slides[index]
 
   return (
-   <section className="relative bg-slate-900 text-white overflow-hidden min-h-[75vh] md:min-h-[70vh] flex items-center pt-20 md:pt-0">
+   <section className="relative bg-slate-900 text-white overflow-hidden min-h-[75vh] md:min-h-[80vh] flex items-center pt-20 md:pt-0">
   {/* Background Image */}
   <div className="absolute inset-0">
     <img
