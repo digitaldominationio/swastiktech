@@ -118,15 +118,15 @@ export default function Footer() {
             <p className="text-slate-400 text-sm leading-relaxed mb-4">
               Email:{" "}
               <a
-                href="mailto:info@swastiktech.com"
+                href="mailto:Info@swastiktechnologies.co.in"
                 className="text-sky-400 hover:underline"
               >
-                info@swastiktech.com
+                Info@swastiktechnologies.co.in
               </a>
               <br />
-              Phone: +91 98765 43210
+              Phone: +91 98536 13693
               <br />
-              New Delhi, India
+              Bhubaneswar, Odisha
             </p>
             <div className="flex gap-4 mt-4 justify-center sm:justify-start text-slate-400">
               <a
