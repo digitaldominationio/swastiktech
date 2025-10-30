@@ -1,0 +1,57 @@
+import React from "react"
+import { motion } from "framer-motion"
+import Hero from "../components/sections/Hero"
+import ServicesGrid from "../components/sections/ServicesGrid"
+import CaseStudies from "../components/sections/CaseStudies"
+import Testimonials from "../components/sections/Testimonials"
+import ContactForm from "../components/sections/ContactForm"
+
+export default function Home() {
+  return (
+    <div className="overflow-hidden">
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+      >
+        <Hero />
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
+      >
+        <ServicesGrid />
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
+      >
+        <CaseStudies />
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
+      >
+        <Testimonials />
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
+      >
+        <ContactForm />
+      </motion.div>
+    </div>
+  )
+}
