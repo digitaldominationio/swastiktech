@@ -1,8 +1,10 @@
 import React from "react"
 import Container from "../../components/layout/Container"
 import PageHeader from "../../components/common/PageHeader"
+import useScrollToTop from "../../hooks/useScrollToTop"
 
 export default function Cyber_Security() {
+  useScrollToTop();
   return (
     <>
       <PageHeader

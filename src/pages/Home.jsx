@@ -5,8 +5,10 @@ import ServicesGrid from "../components/sections/ServicesGrid"
 import CaseStudies from "../components/sections/CaseStudies"
 import Testimonials from "../components/sections/Testimonials"
 import ContactForm from "../components/sections/ContactForm"
+import useScrollToTop from "../hooks/useScrollToTop"
 
 export default function Home() {
+  useScrollToTop();
   return (
     <div className="overflow-hidden">
       <motion.div

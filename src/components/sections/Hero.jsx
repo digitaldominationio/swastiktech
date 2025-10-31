@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react"
 import { motion } from "framer-motion"
 import Button from "../ui/Button"
 import Container from "../layout/Container"
+import { Link } from "react-router-dom"
 
 // ✅ Replace with your real images
 import hero1 from "../../assets/images/hero/hero-banner.jpg"
@@ -99,10 +100,12 @@ export default function Hero() {
         {slide.desc}
       </p>
 
-      <div className="flex justify-center md:justify-start gap-3 pt-4">
-        <Button>{slide.btn}</Button>
-        <Button variant="outline">Contact Us</Button>
-      </div>
+     <div className="flex justify-center md:justify-start gap-3 pt-4">
+  <Button>{slide.btn}</Button>
+  <Link to="/contact" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+    <Button variant="outline">Contact Us</Button>
+  </Link>
+</div>
     </motion.div>
 
     {/* Image Preview */}

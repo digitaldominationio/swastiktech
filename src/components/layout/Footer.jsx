@@ -9,22 +9,22 @@ import {
 } from "react-icons/fa"
 
 export default function Footer() {
+    // Scroll to top function
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" })
+  }
   return (
-    <footer className="relative overflow-hidden bg-gradient-to-b from-slate-900 via-slate-950 to-black text-slate-300  pb-6">
-      {/* Decorative glow line */}
+    <footer className="relative overflow-hidden bg-gradient-to-b from-slate-900 via-slate-950 to-black text-slate-300 pb-6">
       <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-sky-500 via-indigo-500 to-sky-500 animate-pulse"></div>
-
-      {/* Background gradient or texture */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-sky-800/10 via-transparent to-transparent"></div>
 
       <Container className="relative z-10">
-        {/* Top Section: Brand + Description */}
         <div className="text-center mb-8">
-          <Link to="/" className="inline-block group">
+          <Link to="/" className="inline-block group" onClick={scrollToTop}>
             <img
               src="/logo2.png"
               alt="SwastikTech Logo"
-              className="w-30  mx-auto object-contain transition-transform duration-500 group-hover:scale-110 group-hover:drop-shadow-[0_0_20px_rgba(56,189,248,0.6)]"
+              className="w-30 mx-auto object-contain transition-transform duration-500 group-hover:scale-110 group-hover:drop-shadow-[0_0_20px_rgba(56,189,248,0.6)]"
             />
           </Link>
           <p className="max-w-2xl mx-auto text-slate-400 leading-relaxed text-base">
@@ -34,31 +34,30 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Links Grid */}
+        {/* Quick Links */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 text-center sm:text-left mb-6">
-          {/* Quick Links */}
           <div>
             <h4 className="text-white font-semibold text-lg mb-4 border-l-4 border-sky-500 pl-3">
               Quick Links
             </h4>
             <ul className="space-y-3 text-slate-400 text-sm">
               <li>
-                <Link to="/" className="hover:text-sky-400 transition-colors">
+                <Link to="/" onClick={scrollToTop} className="hover:text-sky-400 transition-colors">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/about" className="hover:text-sky-400 transition-colors">
+                <Link to="/about" onClick={scrollToTop} className="hover:text-sky-400 transition-colors">
                   About
                 </Link>
               </li>
               <li>
-                <Link to="/services" className="hover:text-sky-400 transition-colors">
+                <Link to="/services" onClick={scrollToTop} className="hover:text-sky-400 transition-colors">
                   Services
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:text-sky-400 transition-colors">
+                <Link to="/contact" onClick={scrollToTop} className="hover:text-sky-400 transition-colors">
                   Contact
                 </Link>
               </li>

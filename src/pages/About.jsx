@@ -1,8 +1,10 @@
 import React from "react"
 import { motion } from "framer-motion"
 import Container from "../components/layout/Container"
+import useScrollToTop from "../hooks/useScrollToTop"
 
 export default function About() {
+  useScrollToTop();
   return (
     <>
       {/* HERO SECTION */}

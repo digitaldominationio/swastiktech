@@ -4,7 +4,7 @@ import PostList from "../../components/blog/PostList"
 import Container from "../../components/layout/Container"
 import Button from "../../components/ui/Button"
 import { Link } from "react-router-dom"
-
+import useScrollToTop from "../../hooks/useScrollToTop"
 
 const allPosts = [
   {
@@ -100,6 +100,7 @@ const allPosts = [
 ]
 
 export default function BlogIndex() {
+  useScrollToTop();
   const [activeCategory, setActiveCategory] = useState("All")
   const [page, setPage] = useState(1)
   const perPage = 6

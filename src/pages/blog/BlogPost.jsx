@@ -3,6 +3,7 @@ import { useParams, Link } from "react-router-dom"
 import { motion } from "framer-motion"
 import Container from "../../components/layout/Container"
 import { FaLinkedin, FaTwitter, FaFacebook } from "react-icons/fa"
+import useScrollToTop from "../../hooks/useScrollToTop"
 
 const blogData = [
   {
@@ -68,6 +69,7 @@ AI-powered networking is the foundation of tomorrow’s digital enterprise. And 
 ]
 
 export default function BlogPost() {
+  useScrollToTop();
   const { slug } = useParams()
   const post = blogData.find((p) => p.slug === slug)
 
