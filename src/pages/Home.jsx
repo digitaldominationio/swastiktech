@@ -5,10 +5,11 @@ import ServicesGrid from "../components/sections/ServicesGrid"
 import CaseStudies from "../components/sections/CaseStudies"
 import Testimonials from "../components/sections/Testimonials"
 import ContactForm from "../components/sections/ContactForm"
+import Partners from "../components/sections/Partners"   // ✅ Add this
 import useScrollToTop from "../hooks/useScrollToTop"
 
 export default function Home() {
-  useScrollToTop();
+  useScrollToTop()
   return (
     <div className="overflow-hidden">
       <motion.div
@@ -26,6 +27,16 @@ export default function Home() {
         transition={{ duration: 0.8 }}
       >
         <ServicesGrid />
+      </motion.div>
+
+      {/* ✅ Partner Section */}
+      <motion.div
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
+      >
+        <Partners />
       </motion.div>
 
       <motion.div
