@@ -46,6 +46,7 @@ export default function Partners() {
           animation: scrollFull 35s linear infinite;
         }
       `}</style>
+      
 
       <Container>
 
