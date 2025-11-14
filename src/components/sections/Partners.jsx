@@ -9,7 +9,7 @@ import logo5 from "../../assets/images/hero/Cisco.png"
 import logo6 from "../../assets/images/hero/CommScope.png"
 import logo7 from "../../assets/images/hero/CPPlus.png"
 import logo8 from "../../assets/images/hero/Delta.png"
-import logo9 from "../../assets/images/hero/Dlink.png"
+import logo9 from "../../assets/images/hero/DLink.png"
 import logo10 from "../../assets/images/hero/Exide.png"
 import logo11 from "../../assets/images/hero/Hikvision.png"
 import logo12 from "../../assets/images/hero/HP.png"
@@ -46,7 +46,7 @@ export default function Partners() {
           animation: scrollFull 35s linear infinite;
         }
       `}</style>
-      
+
 
       <Container>
 
