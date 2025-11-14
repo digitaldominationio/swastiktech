@@ -43,7 +43,7 @@ export default function CaseStudies() {
             transition={{ delay: 0.3 }}
             className="text-slate-300 text-lg max-w-2xl mx-auto leading-relaxed"
           >
-            Explore how SwastikTech has partnered with forward-thinking
+            Explore how Swastik Technology & Solutions  has partnered with forward-thinking
             enterprises to deliver intelligent, secure, and high-impact digital
             transformation.
           </motion.p>

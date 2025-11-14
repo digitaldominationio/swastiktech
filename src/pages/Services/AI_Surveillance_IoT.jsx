@@ -1,7 +1,7 @@
-import React from "react"
-import Container from "../../components/layout/Container"
-import PageHeader from "../../components/common/PageHeader"
-import useScrollToTop from "../../hooks/useScrollToTop"
+import React from "react";
+import Container from "../../components/layout/Container";
+import PageHeader from "../../components/common/PageHeader";
+import useScrollToTop from "../../hooks/useScrollToTop";
 
 export default function AI_Surveillance_IoT() {
   useScrollToTop();
@@ -10,7 +10,7 @@ export default function AI_Surveillance_IoT() {
       <PageHeader
         title="AI-Based Surveillance & IoT"
         subtitle="Enhancing security, intelligence, and efficiency through next-generation surveillance and IoT automation."
-        image="https://images.unsplash.com/photo-1605902711622-cfb43c4437b7?auto=format&fit=crop&w=1200&q=80"
+        image="/106.jpeg"
       />
 
       {/* Overview Section */}
@@ -21,10 +21,14 @@ export default function AI_Surveillance_IoT() {
               Smart Vision Meets Intelligent Connectivity
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed">
-              <span className="text-sky-600 font-semibold">SwastikTech</span> brings together 
-              the power of Artificial Intelligence and Internet of Things (IoT) to deliver 
-              intelligent surveillance and connected automation solutions. From real-time monitoring 
-              to predictive insights, our systems create safer, smarter, and more efficient environments.
+              <span className="text-sky-600 font-semibold">
+                Swastik Technology & Solutions{" "}
+              </span>{" "}
+              brings together the power of Artificial Intelligence and Internet
+              of Things (IoT) to deliver intelligent surveillance and connected
+              automation solutions. From real-time monitoring to predictive
+              insights, our systems create safer, smarter, and more efficient
+              environments.
             </p>
           </div>
         </Container>
@@ -34,8 +38,7 @@ export default function AI_Surveillance_IoT() {
       <section className="py-16 bg-slate-50">
         <Container>
           <h2 className="text-2xl md:text-3xl font-bold text-slate-800 text-center mb-12">
-                        Intelligent Capabilities that Redefine Surveillance
-
+            Intelligent Capabilities that Redefine Surveillance
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
@@ -102,63 +105,62 @@ export default function AI_Surveillance_IoT() {
 
       {/* 5 Core Solutions Section */}
       <section className="py-20 bg-white">
-  <Container>
-    <div className="max-w-5xl mx-auto text-center mb-16">
-      <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">
-        Intelligent Solutions for Every Environment
-      </h2>
-      <p className="text-slate-600 text-lg leading-relaxed max-w-3xl mx-auto">
-        From cities to industries, our AI and IoT platforms transform how
-        data, security, and operations are managed — enabling connected
-        intelligence everywhere.
-      </p>
-    </div>
-
-    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-      {[
-        {
-          icon: "🏙️",
-          title: "Smart Cities",
-          desc: "Intelligent surveillance and traffic systems enhance urban safety, crowd management, and public monitoring.",
-        },
-        {
-          icon: "🏭",
-          title: "Industrial Automation",
-          desc: "IoT sensors and AI analytics detect faults, monitor machinery, and improve production efficiency.",
-        },
-        {
-          icon: "🏢",
-          title: "Enterprise Security",
-          desc: "Secure offices and campuses with AI-based access control, intrusion detection, and real-time alerts.",
-        },
-        {
-          icon: "🚉",
-          title: "Transportation & Logistics",
-          desc: "Monitor vehicle movement, cargo, and routes with IoT GPS tracking and predictive maintenance systems.",
-        },
-        {
-          icon: "🏥",
-          title: "Healthcare & Smart Facilities",
-          desc: "Enable patient safety, energy optimization, and automated alerts through AI-integrated IoT monitoring platforms.",
-        },
-      ].map((item, i) => (
-        <div
-          key={i}
-          className="group p-8 bg-slate-50 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 flex flex-col items-center text-center"
-        >
-          <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">
-            {item.icon}
+        <Container>
+          <div className="max-w-5xl mx-auto text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">
+              Intelligent Solutions for Every Environment
+            </h2>
+            <p className="text-slate-600 text-lg leading-relaxed max-w-3xl mx-auto">
+              From cities to industries, our AI and IoT platforms transform how
+              data, security, and operations are managed — enabling connected
+              intelligence everywhere.
+            </p>
           </div>
-          <h3 className="font-semibold text-xl text-slate-800 mb-3">
-            {item.title}
-          </h3>
-          <p className="text-slate-600 leading-relaxed">{item.desc}</p>
-        </div>
-      ))}
-    </div>
-  </Container>
-</section>
 
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+            {[
+              {
+                icon: "🏙️",
+                title: "Smart Cities",
+                desc: "Intelligent surveillance and traffic systems enhance urban safety, crowd management, and public monitoring.",
+              },
+              {
+                icon: "🏭",
+                title: "Industrial Automation",
+                desc: "IoT sensors and AI analytics detect faults, monitor machinery, and improve production efficiency.",
+              },
+              {
+                icon: "🏢",
+                title: "Enterprise Security",
+                desc: "Secure offices and campuses with AI-based access control, intrusion detection, and real-time alerts.",
+              },
+              {
+                icon: "🚉",
+                title: "Transportation & Logistics",
+                desc: "Monitor vehicle movement, cargo, and routes with IoT GPS tracking and predictive maintenance systems.",
+              },
+              {
+                icon: "🏥",
+                title: "Healthcare & Smart Facilities",
+                desc: "Enable patient safety, energy optimization, and automated alerts through AI-integrated IoT monitoring platforms.",
+              },
+            ].map((item, i) => (
+              <div
+                key={i}
+                className="group p-8 bg-slate-50 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 flex flex-col items-center text-center"
+              >
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform">
+                  {item.icon}
+                </div>
+                <h3 className="font-semibold text-xl text-slate-800 mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-slate-600 leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </section>
 
       {/* Technology Section */}
       <section className="py-20 bg-slate-50">
@@ -176,9 +178,10 @@ export default function AI_Surveillance_IoT() {
                 Advanced Technology That Powers Smart Intelligence
               </h2>
               <p className="text-slate-600 mb-5">
-                Our AI-based surveillance and IoT infrastructure is built on 
-                edge analytics, cloud computing, and data-driven intelligence — 
-                ensuring fast, secure, and scalable performance across every environment.
+                Our AI-based surveillance and IoT infrastructure is built on
+                edge analytics, cloud computing, and data-driven intelligence —
+                ensuring fast, secure, and scalable performance across every
+                environment.
               </p>
               <ul className="list-disc list-inside space-y-2 text-slate-600">
                 <li>AI-based video analytics and pattern recognition</li>
@@ -198,9 +201,9 @@ export default function AI_Surveillance_IoT() {
             Empower the Future with AI & IoT Intelligence
           </h2>
           <p className="mb-8 text-lg max-w-3xl mx-auto">
-            Create connected, secure, and intelligent spaces with SwastikTech’s
-            AI-Based Surveillance and IoT Solutions — where data turns into
-            real-time action.
+            Create connected, secure, and intelligent spaces with Swastik
+            Technology & Solutions ’s AI-Based Surveillance and IoT Solutions —
+            where data turns into real-time action.
           </p>
           <a
             href="/contact"
@@ -211,5 +214,5 @@ export default function AI_Surveillance_IoT() {
         </Container>
       </section>
     </>
-  )
+  );
 }

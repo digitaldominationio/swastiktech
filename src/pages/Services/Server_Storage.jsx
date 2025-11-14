@@ -10,7 +10,7 @@ export default function Server_Storage() {
       <PageHeader
         title="Server & Storage Solutions"
         subtitle="Delivering enterprise-grade, scalable, and high-availability infrastructure that powers the modern digital enterprise."
-        image="https://images.unsplash.com/photo-1581090464777-f3220bbe1b8b?auto=format&fit=crop&w=1200&q=80"
+        image="/102.jpeg"
       />
 
       {/* Overview Section */}

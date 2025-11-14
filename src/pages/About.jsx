@@ -14,7 +14,7 @@ export default function About() {
     animate={{ scale: 1, opacity: 1 }}
     transition={{ duration: 1.8, ease: "easeOut" }}
     src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1600&q=80"
-    alt="SwastikTech Innovation"
+    alt="Swastik Technology & Solutions  Innovation"
     className="absolute inset-0 w-full h-full object-cover brightness-50"
   />
   <div className="absolute inset-0 bg-gradient-to-b from-slate-900/90 to-sky-900/60"></div>
@@ -34,7 +34,7 @@ export default function About() {
       transition={{ delay: 0.6, duration: 1 }}
       className="text-slate-200 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed"
     >
-      At <span className="text-sky-400 font-semibold">SwastikTech</span>, we
+      At <span className="text-sky-400 font-semibold">Swastik Technology & Solutions </span>, we
       engineer intelligent ecosystems that blend technology, creativity, and
       purpose — empowering businesses to move smarter and faster.
     </motion.p>
@@ -56,7 +56,7 @@ export default function About() {
                 Who We Are
               </h2>
               <p className="text-slate-600 text-lg leading-relaxed mb-5">
-                SwastikTech is a forward-thinking digital transformation company
+                Swastik Technology & Solutions  is a forward-thinking digital transformation company
                 leading the way in AI, Cloud, Cybersecurity, and Infrastructure.
                 Our mission is to design intelligent systems that make technology
                 more human, scalable, and secure.
@@ -77,7 +77,7 @@ export default function About() {
             >
               <img
                 src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=1200&q=80"
-                alt="SwastikTech Team"
+                alt="Swastik Technology & Solutions  Team"
                 className="rounded-2xl shadow-2xl"
               />
               <motion.div
@@ -117,7 +117,7 @@ export default function About() {
               transition={{ duration: 1 }}
               className="text-4xl md:text-5xl font-bold mb-8"
             >
-              The Essence of <span className="text-sky-400">SwastikTech</span>
+              The Essence of <span className="text-sky-400">Swastik Technology & Solutions </span>
             </motion.h2>
 
             <motion.p
@@ -198,7 +198,7 @@ export default function About() {
               {
                 year: "2014",
                 title: "Founded with Vision",
-                desc: "SwastikTech began its journey with a mission to reimagine enterprise technology.",
+                desc: "Swastik Technology & Solutions  began its journey with a mission to reimagine enterprise technology.",
               },
               {
                 year: "2018",
@@ -256,7 +256,7 @@ export default function About() {
             transition={{ duration: 1 }}
             className="text-4xl md:text-5xl font-bold mb-6"
           >
-            Partner with <span className="text-white">SwastikTech</span> to Shape
+            Partner with <span className="text-white">Swastik Technology & Solutions </span> to Shape
             Tomorrow
           </motion.h2>
           <motion.p

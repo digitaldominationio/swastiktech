@@ -10,7 +10,7 @@ export default function Consulting_Advisory() {
       <PageHeader
         title="Consulting & Advisory"
         subtitle="Transform your business strategy with expert technology guidance, digital transformation, and IT roadmap planning."
-        image="https://images.unsplash.com/photo-1531497865144-0464ef8fb9c5?auto=format&fit=crop&w=1200&q=80"
+        image="/108.jpeg"
       />
 
       {/* Overview Section */}
@@ -21,7 +21,7 @@ export default function Consulting_Advisory() {
               Strategic Guidance for a Smarter Digital Future
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed">
-              <span className="text-sky-600 font-semibold">SwastikTech’s Consulting & Advisory Services</span>{" "}
+              <span className="text-sky-600 font-semibold">Swastik Technology & Solutions ’s Consulting & Advisory Services</span>{" "}
               empower organizations to align technology with business goals. We
               bring together strategic insights, digital innovation, and
               technical expertise to drive transformation, operational
@@ -175,7 +175,7 @@ export default function Consulting_Advisory() {
               </h2>
               <p className="text-slate-600 mb-5">
                 Our consulting methodology is built on proven frameworks,
-                analytical tools, and industry expertise. SwastikTech helps
+                analytical tools, and industry expertise. Swastik Technology & Solutions  helps
                 clients turn insights into actions — enabling transformation that
                 is measurable, sustainable, and impactful.
               </p>
@@ -194,7 +194,7 @@ export default function Consulting_Advisory() {
       <section className="py-20 bg-gradient-to-r from-sky-600 to-indigo-600 text-white text-center">
         <Container>
           <h2 className="text-3xl md:text-4xl font-semibold mb-4">
-            Empower Your Strategy with SwastikTech Consulting
+            Empower Your Strategy with Swastik Technology & Solutions  Consulting
           </h2>
           <p className="mb-8 text-lg max-w-3xl mx-auto">
             Partner with our team of consultants and technology strategists to

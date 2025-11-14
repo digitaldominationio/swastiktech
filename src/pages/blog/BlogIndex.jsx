@@ -14,7 +14,7 @@ const allPosts = [
     excerpt:
       "AI-powered automation is reshaping how enterprises manage complex networks — enabling predictive maintenance, real-time insights, and self-healing infrastructure.",
     date: "Oct 25, 2025",
-    author: "SwastikTech AI Team",
+    author: "Swastik Technology & Solutions  AI Team",
     image: "/assets/images/blog/ai-network.jpg",
   },
   {
@@ -44,7 +44,7 @@ const allPosts = [
     excerpt:
       "From connected traffic systems to intelligent waste management — see how IoT and AI are making cities more livable and sustainable.",
     date: "Oct 15, 2025",
-    author: "SwastikTech IoT Team",
+    author: "Swastik Technology & Solutions  IoT Team",
     image: "/assets/images/blog/iot.jpg",
   },
   {

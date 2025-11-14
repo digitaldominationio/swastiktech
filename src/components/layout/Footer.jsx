@@ -23,7 +23,7 @@ export default function Footer() {
           <Link to="/" className="inline-block group" onClick={scrollToTop}>
             <img
               src="/logo2.png"
-              alt="SwastikTech Logo"
+              alt="Swastik Technology & Solutions  Logo"
               className="w-30 mx-auto object-contain transition-transform duration-500 group-hover:scale-110 group-hover:drop-shadow-[0_0_20px_rgba(56,189,248,0.6)]"
             />
           </Link>
@@ -117,7 +117,7 @@ export default function Footer() {
             <p className="text-slate-400 text-sm leading-relaxed mb-4">
               Email:{" "}
               <a
-                href="mailto:Info@swastiktechnologies.co.in"
+                href="mailto:Info@Swastik Technology & Solutions nologies.co.in"
                 className="text-sky-400 hover:underline"
               >
                 Info@swastiktechnologies.co.in
@@ -167,7 +167,7 @@ export default function Footer() {
         <div className="text-center">
           <p className="text-slate-500 text-sm">
             © {new Date().getFullYear()}{" "}
-            <span className="text-sky-400 font-semibold">SwastikTech</span>. All
+            <span className="text-sky-400 font-semibold">Swastik Technology & Solutions </span>. All
             rights reserved.
           </p>
           <p className="text-xs text-slate-600 mt-1">

@@ -10,7 +10,7 @@ export default function Cloud_Computing() {
       <PageHeader
         title="Cloud Computing Solutions"
         subtitle="Empower your business with agile, secure, and intelligent cloud infrastructure — built for performance and growth."
-        image="https://images.unsplash.com/photo-1581092919535-7146ff1a19c7?auto=format&fit=crop&w=1200&q=80"
+        image="/103.jpeg"
       />
 
       {/* Overview Section */}
@@ -22,7 +22,7 @@ export default function Cloud_Computing() {
             </h2>
             <p className="text-slate-600 text-lg leading-relaxed">
               The future of business is cloud-first. At{" "}
-              <span className="font-semibold text-sky-600">SwastikTech</span>, we
+              <span className="font-semibold text-sky-600">Swastik Technology & Solutions </span>, we
               deliver cloud computing solutions that enhance agility, scalability,
               and operational efficiency — allowing your teams to focus on innovation
               while we manage the infrastructure.
@@ -176,7 +176,7 @@ export default function Cloud_Computing() {
           </h2>
           <p className="mb-8 text-lg max-w-3xl mx-auto">
             Accelerate digital transformation, reduce infrastructure costs, and
-            unlock new levels of innovation with SwastikTech’s Cloud Computing
+            unlock new levels of innovation with Swastik Technology & Solutions ’s Cloud Computing
             Solutions.
           </p>
           <a

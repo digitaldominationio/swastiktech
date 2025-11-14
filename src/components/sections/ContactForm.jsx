@@ -11,7 +11,7 @@ export default function ContactForm() {
     <div className="text-center mb-12">
       <h2 className="text-4xl font-bold mb-3">Get in Touch</h2>
       <p className="text-slate-300 max-w-xl mx-auto">
-        Let's discuss how SwastikTech can transform your digital ecosystem.
+        Let's discuss how Swastik Technology & Solutions  can transform your digital ecosystem.
       </p>
     </div>
 

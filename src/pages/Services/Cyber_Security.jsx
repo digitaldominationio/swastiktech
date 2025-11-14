@@ -1,7 +1,7 @@
-import React from "react"
-import Container from "../../components/layout/Container"
-import PageHeader from "../../components/common/PageHeader"
-import useScrollToTop from "../../hooks/useScrollToTop"
+import React from "react";
+import Container from "../../components/layout/Container";
+import PageHeader from "../../components/common/PageHeader";
+import useScrollToTop from "../../hooks/useScrollToTop";
 
 export default function Cyber_Security() {
   useScrollToTop();
@@ -10,7 +10,7 @@ export default function Cyber_Security() {
       <PageHeader
         title="Cyber Security Solutions"
         subtitle="Safeguard your digital enterprise with intelligent, proactive, and resilient cyber defense systems."
-        image="https://images.unsplash.com/photo-1605902711622-cfb43c4437b7?auto=format&fit=crop&w=1200&q=80"
+        image="/104.jpeg"
       />
 
       {/* Overview Section */}
@@ -23,7 +23,9 @@ export default function Cyber_Security() {
             <p className="text-slate-600 text-lg leading-relaxed">
               As cyber threats evolve in scale and sophistication, organizations
               must move beyond reactive defense.{" "}
-              <span className="font-semibold text-sky-600">SwastikTech’s Cyber Security Solutions</span>{" "}
+              <span className="font-semibold text-sky-600">
+                Swastik Technology & Solutions ’s Cyber Security Solutions
+              </span>{" "}
               provide multi-layered protection, real-time threat intelligence,
               and compliance-driven frameworks to ensure your business operates
               securely in the digital age.
@@ -57,6 +59,12 @@ export default function Cyber_Security() {
                 desc: "Leverage advanced analytics and global intelligence feeds to detect, predict, and neutralize cyber attacks.",
               },
               {
+                icon: "🧩",
+                title:
+                  "VAPT (Vulnerability Assessment & Penetration Testing) Analysis",
+                desc: "Identify, analyze, and mitigate security vulnerabilities through systematic assessment and simulated attacks to fortify system resilience.",
+              },
+              {
                 icon: "🧱",
                 title: "Network & Endpoint Protection",
                 desc: "Deploy next-gen firewalls, IDS/IPS, and endpoint security solutions for unified digital protection.",
@@ -88,54 +96,53 @@ export default function Cyber_Security() {
       </section>
 
       {/* Use Cases Section */}
-     <section className="py-20 bg-white">
-  <Container>
-    <div className="max-w-5xl mx-auto text-center mb-16">
-      <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">
-        Defense Strategies Built for Every Industry
-      </h2>
-      <p className="text-slate-600 text-lg leading-relaxed max-w-3xl mx-auto">
-        From financial institutions to healthcare and manufacturing, our
-        cybersecurity solutions are tailored to safeguard your industry’s
-        most critical assets, data, and operations.
-      </p>
-    </div>
-
-    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-      {[
-        {
-          icon: "💳",
-          title: "Financial & Banking",
-          desc: "Prevent fraud, secure transactions, and maintain compliance with AI-driven analytics, identity protection, and encrypted systems.",
-        },
-        {
-          icon: "🏥",
-          title: "Healthcare",
-          desc: "Protect patient records, connected medical devices, and clinical systems with HIPAA-compliant frameworks and 24/7 monitoring.",
-        },
-        {
-          icon: "🏭",
-          title: "Manufacturing & Industrial",
-          desc: "Secure IoT-enabled production networks, operational technologies, and supply chains from ransomware and advanced cyber threats.",
-        },
-      ].map((item, i) => (
-        <div
-          key={i}
-          className="group p-8 bg-slate-50 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 flex flex-col items-center text-center"
-        >
-          <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
-            {item.icon}
+      <section className="py-20 bg-white">
+        <Container>
+          <div className="max-w-5xl mx-auto text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-800 mb-4">
+              Defense Strategies Built for Every Industry
+            </h2>
+            <p className="text-slate-600 text-lg leading-relaxed max-w-3xl mx-auto">
+              From financial institutions to healthcare and manufacturing, our
+              cybersecurity solutions are tailored to safeguard your industry’s
+              most critical assets, data, and operations.
+            </p>
           </div>
-          <h3 className="font-semibold text-xl text-slate-800 mb-3">
-            {item.title}
-          </h3>
-          <p className="text-slate-600 leading-relaxed">{item.desc}</p>
-        </div>
-      ))}
-    </div>
-  </Container>
-</section>
 
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+            {[
+              {
+                icon: "💳",
+                title: "Financial & Banking",
+                desc: "Prevent fraud, secure transactions, and maintain compliance with AI-driven analytics, identity protection, and encrypted systems.",
+              },
+              {
+                icon: "🏥",
+                title: "Healthcare",
+                desc: "Protect patient records, connected medical devices, and clinical systems with HIPAA-compliant frameworks and 24/7 monitoring.",
+              },
+              {
+                icon: "🏭",
+                title: "Manufacturing & Industrial",
+                desc: "Secure IoT-enabled production networks, operational technologies, and supply chains from ransomware and advanced cyber threats.",
+              },
+            ].map((item, i) => (
+              <div
+                key={i}
+                className="group p-8 bg-slate-50 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2 flex flex-col items-center text-center"
+              >
+                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
+                  {item.icon}
+                </div>
+                <h3 className="font-semibold text-xl text-slate-800 mb-3">
+                  {item.title}
+                </h3>
+                <p className="text-slate-600 leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </section>
 
       {/* Technology Section */}
       <section className="py-20 bg-slate-50">
@@ -153,10 +160,10 @@ export default function Cyber_Security() {
                 Intelligent Defense Backed by Advanced Technology
               </h2>
               <p className="text-slate-600 mb-5">
-                SwastikTech integrates next-generation cybersecurity
-                technologies — including AI-driven analytics, zero-trust
-                architectures, and behavior-based intrusion detection — to
-                deliver proactive, adaptive, and automated protection.
+                Swastik Technology & Solutions integrates next-generation
+                cybersecurity technologies — including AI-driven analytics,
+                zero-trust architectures, and behavior-based intrusion detection
+                — to deliver proactive, adaptive, and automated protection.
               </p>
               <ul className="list-disc list-inside space-y-2 text-slate-600">
                 <li>AI/ML-powered intrusion detection and response</li>
@@ -176,9 +183,9 @@ export default function Cyber_Security() {
             Stay Ahead of Evolving Cyber Threats
           </h2>
           <p className="mb-8 text-lg max-w-3xl mx-auto">
-            Partner with SwastikTech to strengthen your cybersecurity posture.
-            Detect threats faster, respond smarter, and protect your enterprise
-            with confidence.
+            Partner with Swastik Technology & Solutions to strengthen your
+            cybersecurity posture. Detect threats faster, respond smarter, and
+            protect your enterprise with confidence.
           </p>
           <a
             href="/contact"
@@ -189,5 +196,5 @@ export default function Cyber_Security() {
         </Container>
       </section>
     </>
-  )
+  );
 }

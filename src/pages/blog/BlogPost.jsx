@@ -11,7 +11,7 @@ const blogData = [
     title: "How AI is Revolutionizing Enterprise Networking",
     date: "Oct 25, 2025",
     author: {
-      name: "SwastikTech AI Team",
+      name: "Swastik Technology & Solutions  AI Team",
       role: "AI & Automation Division",
       avatar: "/assets/images/avatars/ai-team.jpg",
     },
@@ -40,7 +40,7 @@ Self-healing networks don’t just react — they learn. Each event adds to the 
 ### Data-Driven Security and Automation
 AI also enhances cybersecurity within the network layer. Using behavior analysis, it can flag unusual activity or detect threats long before they escalate.
 
-**SwastikTech’s AI-based Network Solutions** integrate:
+**Swastik Technology & Solutions ’s AI-based Network Solutions** integrate:
 - Automated traffic optimization
 - Real-time anomaly detection
 - Intelligent packet routing
@@ -51,7 +51,7 @@ This unified AI model not only secures networks but also makes them more adaptiv
 ### Looking Ahead: AI in Cloud-Edge Networking
 As enterprises embrace hybrid environments, AI will continue bridging cloud and edge architectures — orchestrating dynamic workloads, enforcing zero-trust access, and optimizing data flow between on-prem and cloud systems.
 
-AI-powered networking is the foundation of tomorrow’s digital enterprise. And at SwastikTech, we’re building that future today.
+AI-powered networking is the foundation of tomorrow’s digital enterprise. And at Swastik Technology & Solutions , we’re building that future today.
     `,
     related: [
       {

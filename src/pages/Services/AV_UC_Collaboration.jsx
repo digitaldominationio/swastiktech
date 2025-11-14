@@ -10,7 +10,7 @@ export default function AV_UC_Collaboration() {
       <PageHeader
         title="Audio-Video / UC & Collaboration"
         subtitle="Transforming the modern workplace with smart conferencing, unified communication, and seamless collaboration experiences."
-        image="https://images.unsplash.com/photo-1603791452906-bb9a28f3de9b?auto=format&fit=crop&w=1200&q=80"
+        image="/105.jpeg"
       />
 
       {/* Overview Section */}
@@ -23,7 +23,7 @@ export default function AV_UC_Collaboration() {
             <p className="text-slate-600 text-lg leading-relaxed">
               In a hybrid and digital-first world, communication is the
               cornerstone of success.{" "}
-              <span className="text-sky-600 font-semibold">SwastikTech</span>{" "}
+              <span className="text-sky-600 font-semibold">Swastik Technology & Solutions </span>{" "}
               delivers next-generation Audio-Video and Unified Communication (UC)
               solutions designed to enable effortless collaboration across teams,
               locations, and time zones.

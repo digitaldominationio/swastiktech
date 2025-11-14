@@ -10,7 +10,7 @@ export default function Managed_Services() {
       <PageHeader
         title="Managed Services"
         subtitle="Empowering your business with proactive, secure, and intelligent IT management solutions."
-        image="https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=1200&q=80"
+        image="/107.jpeg"
       />
 
       {/* Overview Section */}
@@ -23,7 +23,7 @@ export default function Managed_Services() {
             <p className="text-slate-600 text-lg leading-relaxed">
               Technology is the backbone of modern business — but managing it
               shouldn’t slow you down.{" "}
-              <span className="text-sky-600 font-semibold">SwastikTech’s Managed IT Services</span>{" "}
+              <span className="text-sky-600 font-semibold">Swastik Technology & Solutions ’s Managed IT Services</span>{" "}
               offer end-to-end support, monitoring, and optimization to keep
               your systems running efficiently, securely, and reliably — 24/7.
             </p>
@@ -168,7 +168,7 @@ export default function Managed_Services() {
                 Powered by Automation, Analytics, and Expertise
               </h2>
               <p className="text-slate-600 mb-5">
-                SwastikTech leverages AI-driven automation, cloud-based
+                Swastik Technology & Solutions  leverages AI-driven automation, cloud-based
                 monitoring, and industry-leading platforms to deliver unmatched
                 efficiency and reliability. Every service is built on
                 transparency, scalability, and continuous innovation.
@@ -191,7 +191,7 @@ export default function Managed_Services() {
             Simplify IT. Amplify Success.
           </h2>
           <p className="mb-8 text-lg max-w-3xl mx-auto">
-            Partner with <span className="font-semibold">SwastikTech</span> for
+            Partner with <span className="font-semibold">Swastik Technology & Solutions </span> for
             comprehensive Managed Services that empower your business to focus
             on growth, innovation, and excellence — while we ensure your IT
             never misses a beat.
