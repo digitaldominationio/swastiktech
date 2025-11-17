@@ -6,7 +6,7 @@ import Button from "../ui/Button"
 export default function ContactForm() {
   return (
     <section className="py-28 bg-slate-900 relative text-white">
-  <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1504384308090-c894fdcc538d')] bg-cover bg-center opacity-20"></div>
+  <div className="absolute inset-0 "></div>
   <Container className="relative z-10">
     <div className="text-center mb-12">
       <h2 className="text-4xl font-bold mb-3">Get in Touch</h2>

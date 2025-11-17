@@ -17,6 +17,7 @@ import AV_UC_Collaboration from "./pages/Services/AV_UC_Collaboration"
 import AI_Surveillance_IoT from "./pages/Services/AI_Surveillance_IoT"
 import Managed_Services from "./pages/Services/Managed_Services"
 import Consulting_Advisory from "./pages/Services/Consulting_Advisory"
+import Careers from "./pages/Careers"
 
 // ✅ Main App
 export default function App() {
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/blog" element={<BlogIndex />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="/contact" element={<Contact />} /> 
+          <Route path="/careers" element={<Careers />} /> 
           {/* Services */}
           <Route path="/services" element={<ServicesIndex />} />
           <Route

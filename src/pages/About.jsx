@@ -76,7 +76,7 @@ export default function About() {
               className="relative"
             >
               <img
-                src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&w=1200&q=80"
+                src="/104.jpeg"
                 alt="Swastik Technology & Solutions  Team"
                 className="rounded-2xl shadow-2xl"
               />

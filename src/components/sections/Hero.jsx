@@ -130,7 +130,7 @@ export default function Hero() {
             {slide.desc}
           </p>
 
-          <div className="flex justify-center md:justify-start gap-3 pt-4">
+          {/* <div className="flex justify-center md:justify-start gap-3 pt-4">
             <Button>{slide.btn}</Button>
             <Link
               to="/contact"
@@ -140,7 +140,21 @@ export default function Hero() {
             >
               <Button variant="outline">Contact Us</Button>
             </Link>
-          </div>
+          </div> */}
+          <div className="flex justify-center md:justify-start gap-3 pt-4">
+  <Button className="button-fill text-white">
+    <span>{slide.btn}</span>
+  </Button>
+
+  <Link
+    to="/contact"
+    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+  >
+    <Button variant="outline" className="button-fill">
+      <span>Contact Us</span>
+    </Button>
+  </Link>
+</div>
         </motion.div>
 
         {/* Image Preview */}

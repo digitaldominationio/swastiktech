@@ -10,6 +10,7 @@ export default function Contact() {
       <PageHeader
         title="Contact Us"
         subtitle="Have a question or project in mind? Let’s connect."
+        image="/105.jpeg"
       />
       <ContactForm />
     </>

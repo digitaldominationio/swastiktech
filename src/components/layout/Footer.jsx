@@ -66,27 +66,45 @@ export default function Footer() {
 
           {/* Our Services */}
           <div>
-            <h4 className="text-white font-semibold text-lg mb-4 border-l-4 border-indigo-500 pl-3">
-              Our Services
-            </h4>
-            <ul className="space-y-3 text-slate-400 text-sm">
-              <li className="hover:text-sky-400 transition-colors">
-                AI Network Solutions
-              </li>
-              <li className="hover:text-sky-400 transition-colors">
-                Cloud Computing
-              </li>
-              <li className="hover:text-sky-400 transition-colors">
-                Cyber Security
-              </li>
-              <li className="hover:text-sky-400 transition-colors">
-                IoT & Surveillance
-              </li>
-              <li className="hover:text-sky-400 transition-colors">
-                Managed Services
-              </li>
-            </ul>
-          </div>
+  <h4 className="text-white font-semibold text-lg mb-4 border-l-4 border-indigo-500 pl-3">
+    Our Services
+  </h4>
+
+  <ul className="space-y-3 text-slate-400 text-sm">
+
+    <li className="hover:text-sky-400 transition-colors">
+      <Link to="/services/ai-network-solutions">
+        AI Network Solutions
+      </Link>
+    </li>
+
+    <li className="hover:text-sky-400 transition-colors">
+      <Link to="/services/cloud-computing">
+        Cloud Computing
+      </Link>
+    </li>
+
+    <li className="hover:text-sky-400 transition-colors">
+      <Link to="/services/cyber-security">
+        Cyber Security
+      </Link>
+    </li>
+
+    <li className="hover:text-sky-400 transition-colors">
+      <Link to="/services/iot-surveillance">
+        IoT & Surveillance
+      </Link>
+    </li>
+
+    <li className="hover:text-sky-400 transition-colors">
+      <Link to="/services/managed-services">
+        Managed Services
+      </Link>
+    </li>
+
+  </ul>
+</div>
+
 
           {/* Insights */}
           <div>

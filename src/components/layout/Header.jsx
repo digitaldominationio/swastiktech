@@ -51,26 +51,7 @@ export default function Header() {
   return (
 <header className="fixed top-0 left-0 w-full z-50 bg-white transition-all duration-300">
        {/* ---------- TOP BAR ---------- */}
-      <div className="bg-blue-900 text-white text-xs">
-        <Container className="flex justify-between items-center py-2">
-          {/* Social Icons */}
-          <div className="flex items-center gap-3">
-            <a href="#" className="hover:text-sky-400 transition"><Linkedin size={14} /></a>
-            <a href="#" className="hover:text-sky-400 transition"><Twitter size={14} /></a>
-            <a href="#" className="hover:text-sky-400 transition"><Youtube size={14} /></a>
-            <a href="#" className="hover:text-sky-400 transition"><Instagram size={14} /></a>
-            <a href="#" className="hover:text-sky-400 transition"><Facebook size={14} /></a>
-          </div>
-
-          {/* Quick Links */}
-          <div className="flex items-center gap-5">
-            <Link to="/investors" className="hover:text-sky-400 transition">Investors</Link>
-            <Link to="/careers" className="hover:text-sky-400 transition">Careers</Link>
-            <Link to="/support" className="hover:text-sky-400 transition">Support</Link>
-            <Link to="/contact" className="hover:text-sky-400 transition">Contact Us</Link>
-          </div>
-        </Container>
-      </div>
+   
       {/* ---------- MAIN NAVBAR ---------- */}
       <div className="bg-white/90 backdrop-blur-md border-b border-slate-200">
         <Container className="flex items-center justify-between h-16">
@@ -87,8 +68,9 @@ export default function Header() {
 
           {/* DESKTOP NAV */}
           <nav className="hidden lg:flex items-center gap-8 text-sm font-medium">
-            <NavLink to="/" className={({ isActive }) => `hover:text-sky-600 ${isActive ? "text-sky-600" : "text-slate-800"}`}>Home</NavLink>
-            <NavLink to="/about" className={({ isActive }) => `hover:text-sky-600 ${isActive ? "text-sky-600" : "text-slate-800"}`}>About</NavLink>
+            {/* <NavLink to="/" className={({ isActive }) => `hover:text-sky-600 ${isActive ? "text-sky-600" : "text-slate-800"}`}>Home</NavLink>
+            <NavLink to="/about" className={({ isActive }) => `hover:text-sky-600 ${isActive ? "text-sky-600" : "text-slate-800"}`}>About</NavLink> */}
+             
 
        {/* SERVICES DROPDOWN */}
 <div
@@ -170,7 +152,7 @@ export default function Header() {
     </ul>
   </div>
 </div>
-
+<Link to="/careers" className="hover:text-sky-400 transition">Careers</Link>
 
             <NavLink to="/contact" className={({ isActive }) => `hover:text-sky-600 ${isActive ? "text-sky-600" : "text-slate-800"}`}>Contact</NavLink>
           </nav>
@@ -187,8 +169,8 @@ export default function Header() {
         <div className="lg:hidden bg-white border-t border-slate-200 shadow-xl">
           <Container>
             <nav className="flex flex-col py-4 space-y-3 text-slate-800">
-              <NavLink to="/" onClick={() => setOpen(false)} className="py-2 hover:text-sky-600">Home</NavLink>
-              <NavLink to="/about" onClick={() => setOpen(false)} className="py-2 hover:text-sky-600">About</NavLink>
+              {/* <NavLink to="/" onClick={() => setOpen(false)} className="py-2 hover:text-sky-600">Home</NavLink> */}
+              {/* <NavLink to="/about" onClick={() => setOpen(false)} className="py-2 hover:text-sky-600">About</NavLink> */}
 
               {/* Mobile Services */}
               <details className="border-t border-slate-100 pt-2">
