@@ -8,7 +8,7 @@ export default function CaseStudies() {
       id: 1,
       title: "AI-Powered Network Optimization",
       desc: "Helping a global telecom provider reduce latency by 40% using intelligent traffic analytics and automation.",
-      img: "https://images.unsplash.com/photo-1581093588401-22afcb1c25f4?auto=format&fit=crop&w=1200&q=80",
+      img: "/104.jpeg",
     },
     {
       id: 2,
@@ -20,7 +20,7 @@ export default function CaseStudies() {
       id: 3,
       title: "Smart Surveillance & IoT Integration",
       desc: "Enabled real-time monitoring and predictive maintenance for industrial assets using AI + IoT sensors.",
-      img: "https://images.unsplash.com/photo-1581093588401-2f0bf07a43a5?auto=format&fit=crop&w=1200&q=80",
+      img: "/106.jpeg",
     },
   ]
 
