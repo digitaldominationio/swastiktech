@@ -15,7 +15,7 @@ const allPosts = [
       "AI-powered automation is reshaping how enterprises manage complex networks — enabling predictive maintenance, real-time insights, and self-healing infrastructure.",
     date: "Oct 25, 2025",
     author: "Swastik Technology & Solutions  AI Team",
-    image: "/assets/images/blog/ai-network.jpg",
+    image: "/101.png",
   },
   {
     slug: "cloud-cost-optimization",
@@ -25,7 +25,7 @@ const allPosts = [
       "Cloud budgets are expanding fast — learn how to track spend, optimize instances, and adopt automation to achieve smarter cost efficiency.",
     date: "Oct 22, 2025",
     author: "CloudOps Division",
-    image: "/assets/images/blog/cloud.jpg",
+    image: "/102.jpeg",
   },
   {
     slug: "cybersecurity-trends",
@@ -35,7 +35,7 @@ const allPosts = [
       "Discover how AI-based detection, zero-trust security, and identity intelligence are defining the future of enterprise defense.",
     date: "Oct 18, 2025",
     author: "Security Research Team",
-    image: "/assets/images/blog/cyber.jpg",
+    image: "/103.jpeg",
   },
   {
     slug: "iot-smart-cities",
@@ -45,7 +45,7 @@ const allPosts = [
       "From connected traffic systems to intelligent waste management — see how IoT and AI are making cities more livable and sustainable.",
     date: "Oct 15, 2025",
     author: "Swastik Technology & Solutions  IoT Team",
-    image: "/assets/images/blog/iot.jpg",
+    image: "/104.jpeg",
   },
   {
     slug: "edge-computing-impact",
@@ -55,7 +55,7 @@ const allPosts = [
       "Edge computing moves data processing closer to users — reducing latency and enabling real-time analytics for next-gen applications.",
     date: "Oct 12, 2025",
     author: "Infra Engineering Team",
-    image: "/assets/images/blog/edge.jpg",
+    image: "/105.jpeg",
   },
   {
     slug: "ai-surveillance-systems",
@@ -65,7 +65,7 @@ const allPosts = [
       "Explore how AI-driven cameras and sensors empower organizations with intelligent threat detection, automation, and analytics.",
     date: "Oct 8, 2025",
     author: "AI Research Unit",
-    image: "/assets/images/blog/ai-surveillance.jpg",
+    image: "/106.jpeg",
   },
   {
     slug: "data-governance-frameworks",
@@ -75,7 +75,7 @@ const allPosts = [
       "Effective data governance ensures compliance, transparency, and trust — learn the key components of a modern data strategy.",
     date: "Oct 5, 2025",
     author: "Data Strategy Team",
-    image: "/assets/images/blog/data.jpg",
+    image: "/107.jpeg",
   },
   {
     slug: "devsecops-best-practices",
@@ -85,7 +85,7 @@ const allPosts = [
       "Security isn’t an afterthought — explore how DevSecOps brings protection directly into your CI/CD pipelines.",
     date: "Sep 29, 2025",
     author: "Cloud Security Group",
-    image: "/assets/images/blog/devsecops.jpg",
+    image: "/108.jpeg",
   },
   {
     slug: "green-it-innovation",
@@ -95,7 +95,7 @@ const allPosts = [
       "Sustainability meets technology — from energy-efficient data centers to carbon-aware AI models, here’s how green IT is shaping tomorrow.",
     date: "Sep 22, 2025",
     author: "Sustainability Team",
-    image: "/assets/images/blog/green-it.jpg",
+    image: "/107.jpeg",
   },
 ]
 
