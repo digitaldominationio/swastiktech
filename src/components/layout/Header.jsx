@@ -58,9 +58,9 @@ export default function Header() {
         {/* LOGO */}
 <Link to="/" className="flex items-center group">
   <img
-    src="/logo.png"
+    src="/onelogo.png"
     alt="Swastik Technology & Solutions  Logo"
-    className="w-32 h-30 object-contain transition-all duration-300 "
+    className="w-32 h-28 object-contain transition-all duration-300 "
   />
 </Link>
 
