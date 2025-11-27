@@ -343,7 +343,7 @@ export default function Cloud_Computing() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="reveal">
               <img
-                src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80"
+                src="/4.jpeg"
                 alt="Cloud Technology Infrastructure"
                 className="rounded-2xl shadow-lg"
               />

@@ -400,7 +400,7 @@ export default function AI_Surveillance_IoT() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="reveal">
               <img
-                src="https://images.unsplash.com/photo-1591696205602-2f950c417cb9?auto=format&fit=crop&w=1200&q=80"
+                src="/3.jpeg"
                 alt="AI Surveillance and IoT Technology"
                 className="rounded-2xl shadow-lg"
               />

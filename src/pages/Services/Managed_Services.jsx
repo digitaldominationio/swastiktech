@@ -370,7 +370,7 @@ export default function Managed_Services() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="reveal">
               <img
-                src="/106.jpeg"
+                src="/5.jpeg"
                 alt="Managed IT Services Technology"
                 className="rounded-2xl shadow-lg"
               />

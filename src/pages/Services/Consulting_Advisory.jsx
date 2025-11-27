@@ -381,7 +381,7 @@ export default function Consulting_Advisory() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="reveal">
               <img
-                src="/108.jpeg"
+                src="/7.jpeg"
                 alt="Consulting & Advisory Technology"
                 className="rounded-2xl shadow-lg"
               />

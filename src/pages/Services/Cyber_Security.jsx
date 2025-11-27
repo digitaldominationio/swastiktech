@@ -360,7 +360,7 @@ export default function Cyber_Security() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="reveal">
               <img
-                src="https://images.unsplash.com/photo-1591696205602-2f950c417cb9?auto=format&fit=crop&w=1200&q=80"
+                src="/6.jpeg"
                 alt="Cyber Security Technology"
                 className="rounded-2xl shadow-lg"
               />

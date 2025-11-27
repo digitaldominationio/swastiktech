@@ -342,7 +342,7 @@ export default function Server_Storage() {
             {/* Image */}
             <div className="reveal">
               <img
-                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=1200&q=80"
+                src="/2.jpeg"
                 alt="Server and Storage Infrastructure"
                 className="rounded-2xl shadow-lg"
               />

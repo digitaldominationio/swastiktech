@@ -340,7 +340,7 @@ export default function AV_UC_Collaboration() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="reveal">
               <img
-                src="/101.png"
+                src="/1.jpeg"
                 alt="Audio Video and Collaboration Technology"
                 className="rounded-2xl shadow-lg"
               />
